@@ -1,0 +1,27 @@
+  -- +=================================================================+
+  -- |             Copyright (c) 2025 Source2IT Tecnologia             |
+  -- |      São José do Rio Preto, Brasil, All rights reserved.        |
+  -- +=================================================================+
+  -- | FILENAME                                                        |
+  -- |   SEQ_CLIENTE.seq                                               |
+  -- |                                                                 |
+  -- |                                                                 |
+  -- | DESCRIPTION                                                     |
+  -- | Sequence de Cliens                                              |
+  -- |                                                                 |
+  -- | PARAMETERS                                                      |
+  -- |                                                                 |
+  -- | CREATED BY                                                      |
+  -- |   João Barbosa                        - 13/01/2026              |
+  -- |                                                                 |
+  -- | UPDATED BY                                                      |
+  -- |                                                                 |
+  -- +=================================================================+
+  -- Create table
+-- Create sequence 
+create sequence SEQ_CLIENTE
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 1
+increment by 1
+nocache;
